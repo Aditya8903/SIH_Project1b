@@ -19,7 +19,7 @@ import ContactUs from './Components/ContactUs';
 import ComplaintForm from './Components/ComplaintForm';
 import About from './Components/About';
 import FeedbackForm from './Components/FeedbackForm';
-// import VerifyForm from './Components/VerifyForm';
+
 import SingleUserLogin from './Components/singleUserLogin';
 
 const App = () => {
@@ -38,7 +38,7 @@ const App = () => {
         <Route path="/HowItWorks" element={<HowItWorks />} />
         <Route path="/ExsistingCertificate" element={<ExsistingCertificate />} />
         <Route path="/NewCertificate" element={<NewCertificate />} />
-        <Route path="/VerifyCertificate" element={<VerifyCertificate />} />
+        <Route path="/verify" element={<VerifyCertificate />} />
         <Route path="/FreeTrial" element={<FreeTrial />} />
         <Route path="/FreeTrialForm" element={<FreeTrialForm />} />
         <Route path="/contact" element={<ContactUs />} />
